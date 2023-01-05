@@ -13,9 +13,9 @@
 <img align="center" src="https://www.mdpi.com/sensors/sensors-17-00176/article_deploy/html/images/sensors-17-00176-g011.png" alt="kolesnokov__dima" height="350" width="480" /> 
 
 ---
-### №2 Прогнозирование заболеваемости COVID и поведения сигнала ЭКГ.
+### №2 Прогнозирование заболеваемости COVID-19.
 Для решения данной задачи было проведено обучение рекурентной LSTM нейронной сети. Данная архитектура сети лучше всего позволяет прогнозировать временные ряды.<br/>
-В качестве тестовых и трейновых данных использовался датасет о заболеваемости короновирусом в России - [COVID.csv](https://github.com/Koldim2001/time_series_theory/blob/main/COVID.csv), а для задачи по предсказанию электрокардиограммы - [MIT-BIH Database](https://www.kaggle.com/datasets/mondejar/mitbih-database?resource=download&select=100.csv)
+В качестве тестовых и трейновых данных использовался датасет о заболеваемости короновирусом в России - [COVID.csv](https://github.com/Koldim2001/time_series_theory/blob/main/COVID.csv)
 > Решение данного проекта представлено в формате документа [LSTM_prediction.ipynb](https://github.com/Koldim2001/time_series_theory/blob/main/LSTM_prediction.ipynb)
 
 ---
