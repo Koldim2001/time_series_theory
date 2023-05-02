@@ -8,7 +8,7 @@
 В качестве ML модели использовался градиентный бустинг. Обучение происходило по данным ЭКГ сигналов большого числа пациентов. Датасет сигналов электрокардиограммы для обучения и тестирования был взят с [MIT-BIH Database](https://www.kaggle.com/datasets/mondejar/mitbih-database?resource=download&select=100.csv). <br/>
 Для итогового определения QRS комплеса на неизвестном сигнале используется подход со скольжением небольшого окна по сигналу и последующей классификацией каждой области на наличие пика с помощью заранее обученной модели.<br/>
 В работе подробно описан метод предподготовки трейновых данных, позволяющий добиться точности порядка 98% на тестовых данных (данных ЭКГ новых пациентов).
-> Решение данного проекта представлено в формате документа [ECG_classification.ipynb](https://github.com/Koldim2001/time_series_theory/blob/main/ECG_classification.ipynb)
+> Решение данного проекта представлено в формате документа [ECG_classification.ipynb](https://nbviewer.org/github/Koldim2001/time_series_theory/blob/main/ECG_classification.ipynb)
 
 <img align="center" src="https://www.mdpi.com/sensors/sensors-17-00176/article_deploy/html/images/sensors-17-00176-g011.png" alt="kolesnokov__dima" height="350" width="480" /> 
 
@@ -16,7 +16,7 @@
 ### №2 Прогнозирование заболеваемости COVID-19.
 Для решения данной задачи было проведено обучение рекурентной LSTM нейронной сети. Данная архитектура сети лучше всего позволяет прогнозировать временные ряды.<br/>
 В качестве тестовых и трейновых данных использовался датасет о заболеваемости короновирусом в России - [COVID.csv](https://github.com/Koldim2001/time_series_theory/blob/main/COVID.csv)
-> Решение данного проекта представлено в формате документа [LSTM_prediction.ipynb](https://github.com/Koldim2001/time_series_theory/blob/main/LSTM_prediction.ipynb)
+> Решение данного проекта представлено в формате документа [LSTM_prediction.ipynb](https://nbviewer.org/github/Koldim2001/time_series_theory/blob/main/LSTM_prediction.ipynb)
 
 ---
 ### №3 Решение задач на фильтрацию сигналов с помощью рядов Фурье, предсказания текущей координаты трекуемого объекта с помощью фильтра Калмана, а также задач на установление зависимостей между темпами вакцинации и активностью твитов на данную тематику.
@@ -36,5 +36,5 @@
 * Используя тест Гренджера на причинность, определить, является ли процесс, описываемый датасетом А причиной процесса Б (по Гренджеру), и наоборот.
 * Используя векторную авторегрессионную модель определить, являются ли данные процессы стационарными
 * В случае, если оба процесса являются нестационарными, проверить, являются ли данные процессы коинтегрированными
-> Решение данного проекта представлено в формате документа [fft_kalman_econometrics.ipynb](https://github.com/Koldim2001/time_series_theory/blob/main/fft_kalman_econometrics.ipynb)
+> Решение данного проекта представлено в формате документа [fft_kalman_econometrics.ipynb](https://nbviewer.org/github/Koldim2001/time_series_theory/blob/main/fft_kalman_econometrics.ipynb)
 
